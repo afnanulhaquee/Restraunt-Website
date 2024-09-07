@@ -303,9 +303,10 @@ body {
   color: #444;
 }
 
-.food-description p {
+.food-description {
   font-size: 1.4rem;
   color: #555;
+  margin-left: 20px;
   font-weight: 500;
 }
 
