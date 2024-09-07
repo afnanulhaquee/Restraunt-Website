@@ -314,3 +314,56 @@ body {
   color: #117964;
   font-weight: 700;
 }
+
+/* #### testimonial styling #### */
+#testimonials {
+  padding: 5rem;
+  background-color: rgb(243, 243, 243);
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.testimonial-box .checked {
+  color: #ffea2fcc;
+}
+
+.testimonial-box .testimonial-text {
+  margin: 1rem 0;
+  color: #444;
+}
+
+.testimonial-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.testimonial-text {
+  text-align: center;
+  padding: 1rem;
+}
+
+.customer-name {
+  text-align: center;
+}
+
+.customer-photo img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: auto;
+}
