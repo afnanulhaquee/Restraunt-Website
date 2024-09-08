@@ -37,15 +37,26 @@ body {
 }
 
 .btn-primary {
+  background-color: #0ea38370;
+  color: #ffffff;
+}
+
+.btn-showcase {
   color: #000000af;
   background: #329b4c69;
 }
 
 /* #### Hover state of btn#### */
 
-.btn:hover {
+.btn-showcase:hover {
   background-color: #16a083;
   color: #fff;
+  transition: background 0.5s ease-in-out;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: #16a083;
   transition: background 0.5s ease-in-out;
 }
 
